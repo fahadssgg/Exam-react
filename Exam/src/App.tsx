@@ -1,4 +1,5 @@
 import Navpar from "./components/Navpar";
+import Footer from "./components/Footer";
 import Store from "./hooks/Store";
 import Cart from "./hooks/Cart";
 import Singin from "./hooks/Singin";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Singin" element={<Singin />} />
         <Route path="/SingUp" element={<SingUp />} />
       </Routes>
+      <Footer />
     </>
   );
 }
