@@ -19,7 +19,7 @@ export default function Singin() {
   }, []);
 
   const LogIn = () => {
-    if (form.username == "a" || form.password == "a") {
+    if (form.username == "johnd" || form.password == "m38rmF$") {
       navi("/");
       alert("welcom to store");
     } else {
